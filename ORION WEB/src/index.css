@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #16A086;
+  --secondary-color: #333F48;
+  --accent-color: #27AE60;
+}
+
+body {
+  @apply font-sans text-gray-800 bg-gray-50;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-12 md:py-24;
+}
+
+.bento-grid {
+  @apply grid gap-5 md:gap-6 lg:gap-8;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.bento-card {
+  @apply bg-white p-6 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md border border-gray-100;
+}
+
+.bento-card-featured {
+  @apply col-span-1 md:col-span-2 bg-primary-50;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-600;
+}
+
+.btn-secondary {
+  @apply bg-gray-800 text-white hover:bg-gray-700;
+}
+
+.btn-outline {
+  @apply border border-gray-300 text-gray-700 hover:bg-gray-50;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-300 focus:border-transparent;
+}
+
+.nav-link {
+  @apply text-gray-700 hover:text-primary transition-colors duration-300 font-medium;
+}
+
+.nav-link-active {
+  @apply text-primary font-medium border-b-2 border-primary;
+}
+
+/* Card styling */
+.card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-md hover:-translate-y-1;
+}
+
+/* Button fixes */
+button:focus, a:focus {
+  @apply outline-none ring-2 ring-primary-300 ring-opacity-50;
+}
+
+/* Исправление для мобильного меню */
+@media (max-width: 767px) {
+  button.touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  button.touch-manipulation:active {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Увеличиваем область нажатия для кнопки меню */
+  button.touch-manipulation::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+  }
+}
+
+/* Анимация для иконки меню */
+@keyframes menu-button-press {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+.touch-manipulation:active svg {
+  animation: menu-button-press 0.2s ease-in-out;
+}
+
+/* Animations */
+.page-transition {
+  @apply animate-fade-in;
+}
+
+.slide-up {
+  @apply animate-slide-up;
+}
+
+.slide-down {
+  @apply animate-slide-down;
+}
+
+/* Стили для HTML в описании услуг */
+.text-gray-700 h3 {
+  @apply text-xl md:text-2xl font-bold mb-4 text-secondary-800 mt-8;
+}
+
+.text-gray-700 strong {
+  @apply font-semibold text-secondary-700;
+}
+
+.text-gray-700 ul {
+  @apply list-disc pl-8 mb-6 space-y-2;
+}
+
+.text-gray-700 li {
+  @apply mb-2;
+}
+
+/* Стиль для маркера списка с символом • */
+.text-gray-700 p {
+  @apply mb-4;
+}

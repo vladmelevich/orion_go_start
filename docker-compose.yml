@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./ORION WEB
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - orion-network
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - DJANGO_SETTINGS_MODULE=orion_backend.settings
+      - DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}
+      - DJANGO_DEBUG=False
+      - DJANGO_ALLOWED_HOSTS=93.183.80.242,localhost,127.0.0.1
+      - EMAIL_HOST=smtp.beget.com
+      - EMAIL_PORT=25
+      - EMAIL_USE_TLS=True
+      - EMAIL_HOST_USER=info@orionsite.ru
+      - EMAIL_HOST_PASSWORD=h5746R08o
+      - DEFAULT_FROM_EMAIL=info@orionsite.ru
+    volumes:
+      - static_volume:/app/static
+    networks:
+      - orion-network
+    restart: unless-stopped
+
+networks:
+  orion-network:
+    driver: bridge
+
+volumes:
+  static_volume: 

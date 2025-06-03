@@ -1,0 +1,221 @@
+export const enTranslation = {
+  common: {
+    company: 'ORION LOGISTICS COMPANY',
+    slogan: 'Your Perfect Partner in the World of Logistics',
+    year: '2014',
+    readMore: 'Read more',
+    contactUs: 'Contact us',
+    submit: 'Submit',
+    language: 'Language',
+    russian: 'Russian',
+    english: 'English',
+  },
+  menu: {
+    home: 'Home',
+    about: 'About Us',
+    services: 'Services',
+    contact: 'Contact',
+    feedback: 'Feedback',
+  },
+  home: {
+    heroTitle: 'Global Logistics Solutions',
+    heroSubtitle: 'Professional freight and logistics services worldwide',
+    companySince: 'Trusted partner since 2014',
+    servicesTitle: 'Our Services',
+    aboutTitle: 'About ORION',
+    aboutSubtitle: 'Your ideal partner in Logistics',
+    statsTitle: 'Why Choose Us',
+    ctaTitle: 'Need a logistics solution?',
+    ctaDescription: 'Contact us today for a consultation with our logistics experts',
+    slides: {
+      air: 'Fast and reliable air freight for urgent cargo',
+      rail: 'Cost-effective rail transportation across the Eurasian continent',
+      road: 'Flexible road transport with door-to-door delivery',
+      sea: 'Optimal sea freight for large international cargo',
+      warehouse: 'Modern warehousing services and inventory management'
+    },
+    testimonials: {
+      title: 'Client Testimonials',
+      subtitle: 'What our clients say about ORION',
+      items: [
+        {
+          text: 'ORION provided flawless logistics for our company. Their efficient solutions and attention to detail helped us optimize our entire supply chain.',
+          author: 'Alex Peterson',
+          position: 'CEO, TechnoProm'
+        },
+        {
+          text: 'We have been working with ORION for over 3 years. Always timely delivery and a professional approach to solving even the most complex logistics challenges.',
+          author: 'Helen Smith',
+          position: 'Head of Foreign Trade, Mega-Trade'
+        },
+        {
+          text: 'Thanks to ORION, we were able to enter international markets without unnecessary costs and problems. They took care of customs clearance and all logistics issues.',
+          author: 'Dmitry Ivanov',
+          position: 'Commercial Director, EcoProduct'
+        },
+        {
+          text: 'ORION is a reliable partner with a high level of expertise. They always offer optimal routes and delivery methods, which saves our time and money.',
+          author: 'Olga Kuznetsova',
+          position: 'Head of Logistics, GlobalTrade'
+        }
+      ]
+    }
+  },
+  about: {
+    title: 'About Us',
+    subtitle: 'International Group of Companies with Global Presence',
+    history: 'Founded',
+    mission: 'Our Mission',
+    missionText: 'To provide high-quality logistics services that fully meet our Clients\' expectations. To contribute to the development of each Client\'s business by developing and implementing the most effective logistics solutions.',
+    vision: 'Our Vision',
+    visionText: 'ORION is part of an international group of companies operating under the global Logiversa brand, providing excellent quality logistics services worldwide. We have offices in Berlin, Vilnius, Moscow, St. Petersburg, and Almaty.',
+    values: 'Our Advantages',
+    value1Title: 'Experience & Reputation',
+    value1Text: 'Years of experience and impeccable reputation in the logistics services market.',
+    value2Title: 'Client Care',
+    value2Text: 'Individual approach to each client and complete logistics service under the "one-window" principle.',
+    value3Title: 'Comprehensive Solutions',
+    value3Text: 'From goods procurement and financial logistics to marking and customs clearance.',
+    value4Title: 'Reliability',
+    value4Text: 'All-risk cargo insurance and focus on long-term cooperation.',
+    team: 'Our Team',
+    expertise: 'Years of Expertise',
+    clients: 'Satisfied Clients',
+    countries: 'Countries Covered',
+    advantages: {
+      title: 'Our Advantages',
+      items: [
+        'Experience and excellent reputation',
+        'Client Care',
+        'Complete logistics service - "One-window" principle',
+        'Global Coverage',
+        'Own and contracted transport',
+        'All-risk cargo insurance',
+        'Focus on long-term cooperation'
+      ]
+    },
+    services: {
+      title: 'Comprehensive Services',
+      items: [
+        'Goods procurement',
+        'Financial logistics',
+        'Cargo transportation',
+        'Warehousing',
+        'Marking',
+        'Terminal services',
+        'Customs clearance',
+        'Import and export consulting',
+        'Logistics cost optimization'
+      ]
+    }
+  },
+  services: {
+    title: 'Our Services',
+    subtitle: 'Comprehensive Logistics Solutions',
+    description: 'ORION provides a full range of logistics services designed to meet your specific business needs across global supply chains.',
+    roadTitle: 'Road Freight',
+    roadDescription: 'Reliable road transportation services across Europe and Asia with flexible options for partial and full loads.',
+    airTitle: 'Air Freight',
+    airDescription: 'Fast and efficient air cargo solutions for time-sensitive shipments worldwide.',
+    railTitle: 'Rail Freight',
+    railDescription: 'Cost-effective and environmentally friendly rail transport solutions, especially for China-Europe routes.',
+    seaTitle: 'Sea Freight',
+    seaDescription: 'Comprehensive ocean freight services including FCL, LCL, and special cargo handling.',
+    customsTitle: 'Customs Clearance',
+    customsDescription: 'Professional customs brokerage services ensuring smooth and compliant border crossings.',
+    warehouseTitle: 'Warehouse Services',
+    warehouseDescription: 'Modern warehousing facilities with inventory management, cross-docking, and value-added services.',
+    markingTitle: 'Product Marking',
+    markingDescription: 'Product labeling and marking services in accordance with "Honest Mark" system and local regulations.',
+    outsourcingTitle: 'Foreign Trade Outsourcing',
+    outsourcingDescription: 'Comprehensive foreign trade operations management for businesses entering international markets.',
+    keyFeatures: 'Key Features',
+    whyChoose: 'Why Choose Our',
+    companyApproach: 'ORION LLC offers an individual approach to each client, providing optimal logistics solutions that meet your specific needs. Our many years of experience, reliability, and professionalism make us an ideal partner for your business.',
+    additionalServices: 'Additional Services',
+    needConsultation: 'Need Consultation?',
+    contactExperts: 'Contact our experts for detailed information.',
+    readyToStart: 'Ready to Start Cooperation?',
+    contactUsToday: 'Contact us today to get a customized offer for your logistics needs.',
+    notFound: 'Service Not Found',
+    notFoundDesc: 'The service you\'re looking for does not exist.',
+    backToServices: 'Back to Services',
+  },
+  contact: {
+    title: 'Contact Us',
+    subtitle: 'Get in Touch with Our Team',
+    address: 'Address',
+    phone: 'Phone',
+    email: 'Email',
+    workingHours: 'Working Hours',
+    mondayFriday: 'Monday-Friday: 9:00 - 18:00',
+    formTitle: 'Send Us a Message',
+    nameLabel: 'Your Name',
+    emailLabel: 'Your Email',
+    phoneLabel: 'Your Phone',
+    messageLabel: 'Your Message',
+    submitButton: 'Send Message',
+    location: 'Our Location',
+  },
+  feedback: {
+    title: 'Feedback',
+    subtitle: 'We Value Your Opinion',
+    description: 'Have a question or need assistance? Fill out the form below and our team will get back to you as soon as possible.',
+    nameLabel: 'Your Name',
+    emailLabel: 'Your Email',
+    subjectLabel: 'Subject',
+    messageLabel: 'Your Message',
+    submitButton: 'Submit Feedback',
+    successMessage: 'Thank you for your feedback! We will contact you shortly.',
+    errorMessage: 'There was an error submitting your feedback. Please try again.',
+  },
+  footer: {
+    description: 'ORION LLC provides comprehensive logistics solutions including international freight shipping, warehousing, customs clearance, and trade agency services.',
+    copyright: '© 2023 ORION LLC. All rights reserved.',
+    quickLinks: 'Quick Links',
+    services: 'Services',
+    contactInfo: 'Contact Information',
+  },
+  serviceDetails: {
+    roadFreight: {
+      title: 'Road Freight Services',
+      description: 'Our road freight services offer reliable and flexible transportation solutions across Europe and Asia. We provide door-to-door delivery with real-time tracking and customs clearance support.',
+      features: ['Full and partial load options', 'Temperature-controlled transport', 'Dangerous goods handling', 'Express delivery services', 'Cross-border expertise'],
+    },
+    airFreight: {
+      title: 'Air Freight Services',
+      description: 'Our air freight solutions provide the fastest way to transport your cargo globally. We work with leading carriers to ensure competitive rates and reliable service for time-sensitive shipments.',
+      features: ['Express air freight', 'Charter services', 'Dangerous goods handling', 'Temperature-sensitive cargo', 'Door-to-airport and door-to-door options'],
+    },
+    railFreight: {
+      title: 'Rail Freight Services',
+      description: 'Rail freight offers a cost-effective and environmentally friendly alternative for long-distance transportation, particularly for China-Europe routes via the New Silk Road.',
+      features: ['Container and wagon load services', 'Intermodal solutions', 'Regular scheduled services', 'High-volume capacity', 'Lower carbon footprint'],
+    },
+    seaFreight: {
+      title: 'Sea Freight Services',
+      description: 'Our sea freight services cover all major shipping routes with competitive rates for both FCL and LCL shipments. We handle special cargo and provide complete documentation support.',
+      features: ['FCL (Full Container Load)', 'LCL (Less than Container Load)', 'Special equipment handling', 'Project cargo expertise', 'Global port coverage'],
+    },
+    customs: {
+      title: 'Customs Clearance Services',
+      description: 'Our customs brokerage team ensures smooth and compliant border crossings with expertise in international trade regulations and documentation requirements.',
+      features: ['Import/export declarations', 'Tariff classification', 'Customs valuation', 'Documentation preparation', 'Regulatory compliance advice'],
+    },
+    warehouse: {
+      title: 'Warehouse Services',
+      description: 'We offer modern warehousing facilities with comprehensive inventory management systems, providing storage, distribution, and value-added services.',
+      features: ['Short and long-term storage', 'Inventory management', 'Pick and pack services', 'Cross-docking', 'Value-added services (labeling, kitting, etc.)'],
+    },
+    marking: {
+      title: 'Product Marking Services',
+      description: 'Our product marking services ensure compliance with the "Honest Mark" system and other labeling requirements across different markets.',
+      features: ['Compliance with "Honest Mark" system', 'Data Matrix code application', 'Product labeling services', 'Track and trace capability', 'Regulatory compliance'],
+    },
+    outsourcing: {
+      title: 'Foreign Trade Outsourcing',
+      description: 'We offer comprehensive management of foreign trade operations for businesses entering international markets, acting as your trade representative.',
+      features: ['Import/export management', 'Supplier relationship management', 'Trade documentation handling', 'Regulatory compliance', 'Market entry strategy'],
+    },
+  },
+};
